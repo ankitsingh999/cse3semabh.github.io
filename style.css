@@ -1,0 +1,366 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik',sans-serif;
+}
+header
+{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(to left, #fff 80%, #3CB371	 20%);
+    
+}
+.navsection
+{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to top, white 80%, green 20%);
+}
+.logo
+{
+    width: 30%;
+    color: white;
+    background-image: linear-gradient(#8d98e3 30%, orange 60%);
+    padding-left: 50px;
+    box-sizing: border-box;
+    
+}
+.logo h1
+{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    animation: aagepiche 2s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes aagepiche
+{
+    from{ padding-left: 40px;}
+    to{padding-right: 40px;}
+}
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav a
+{
+      text-decoration: none;
+    text-transform:uppercase;
+    color: black;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 19px;
+    position: relative;
+}
+
+nav a:first-child
+{
+    color:green;
+}
+nav a:before
+{
+    content:"";
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom: 5px solid orange;
+    transition:  all 0.4s linear;
+    
+    
+}
+nav a:hover:before
+{
+    width:100%;
+    
+}
+main
+{
+    height: 80vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.right
+{ 
+  border-radius:100% 56% 35% 25% / 19% 32% 21% 38%; 
+    /*background-color: #e8fbff;*/
+    background-image: linear-gradient(#e8fbff  ,green);
+}
+.right img
+{
+    max-width: 400px;
+    height: auto;
+}
+.left
+{
+    color: black;
+    text-transform: uppercase;
+
+    
+}
+.left h3
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.left h3:after
+{
+    content: "";
+    width: 300px;
+    color: gold;
+    height: 5px;
+    position:absolute;
+    top: 60.99%;
+    left:20%;
+    background:orange;
+    
+}
+.left h1
+{
+    margin-top: 20px;
+    font-size: 40px;
+    color: white
+    margin-bottom: 25px;
+    
+}
+.left h2
+{   font-size: 20px;
+    color: gold;
+    margin-bottom: 30px;
+    font-weight: 300px;
+    word-spacing: 3px;
+}
+.left .btn1, .btn2
+{
+ text-decoration: none;
+    font-weight: 600;
+    font-size: 10px;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 50px;   
+}
+.left .btn1
+{
+   text-decoration: none;
+    font-weight: 600;
+    font-size: 10px;
+    text-align: center;
+    padding: 12px 21.09px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 50px;
+    color:#fff;
+    letter-spacing: 0;
+    background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%);
+    border: double 2px transparent;
+    box-shadow: 0 10px 30px rgba(119,85,225,3);
+      
+}
+.left .btn2
+{
+   
+    border: 2px solid green;
+    color:black;
+    background-color: aliceblue;
+    box-shadow: none;
+    
+    
+}
+.left .btn1:hover
+{
+     border: 2px solid #4458dc;
+    color:black;
+    background-color: aliceblue;
+    box-shadow: none;
+    background-image:none;
+}
+.left .btn2:hover
+{
+     border: 2px solid #4458dc;
+    color:wheat;
+    background-color: aliceblue;
+    box-shadow: none;
+      background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%);
+        box-shadow: 0 10px 30px rgba(119,85,225,3);
+}
+
+section{
+    width: 100%;
+    height:100%;
+    padding: 0;
+    margin-top: 10px;
+    background-color:lightcyan;
+}
+.about h1{
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    
+}
+.about p1
+{   padding-left: 200px;
+    padding-right: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+        display: flex;
+    justify-content: space-around;
+    
+    
+}
+@import url('https://fonts.googleapis.com/css?family=Allura|josefin+sans');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #81c644;
+    font-family: 'josfin sans',sans-serif;
+    
+
+ 
+}
+.wrapper
+{
+    margin-top:3%;
+    
+}
+.wrapper h1
+{
+    font-family: 'Allura',cursive;
+    font-size: 52px;
+    margin-bottom:10px;
+    text-align: center;
+}
+.team
+{
+    display:flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    
+}
+.team .team_member
+{
+    background:white;
+    margin: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding:20px;
+    line-height: 20px;
+    color:black;
+    text-transform: capitalize;
+    position: relative;
+}
+.team .team_member h3
+{
+    color: #81c644;
+    font-size: 26px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.team .team_member p.role
+{
+    color: darkred;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 12px 0;
+    
+}
+.team .team_member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:orange;
+} 
+.team .team_member .team_img img{
+    width :100px;
+    height: 100px;
+    padding: 10px;
+    
+}
+.footer
+{
+margin-bottom: 60px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color:navajowhite;
+}
+.footer h1
+{  
+    font-size: 18px;
+    font-weight: 8000;
+    color: red;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
