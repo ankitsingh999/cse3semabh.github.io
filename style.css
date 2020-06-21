@@ -229,14 +229,14 @@ section{
     
     
 }
-. download {
+.download {
 Height:100px;
 Width:auto;
 Background-colour:white;
 Display:flex;
 Justify-content:space-around;
 }
-. download a
+.download a
 {
 Text-align:center;
 Font-size:20px;
