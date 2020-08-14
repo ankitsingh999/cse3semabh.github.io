@@ -88,9 +88,9 @@ main
     align-items: center;
     
 }
-.15{
-    display:flex;
-    justify-content:space-around;}
+
+
+
 .right
 { 
   border-radius:100% 56% 35% 25% / 19% 32% 21% 38%; 
